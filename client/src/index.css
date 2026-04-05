@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make react-big-calendar fill its container properly */
+.rbc-calendar {
+  height: 100%;
+}
+
+.rbc-month-view {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rbc-header {
+  padding: 8px 4px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+}
+
+.rbc-today {
+  background-color: #eff6ff;
+}
+
+.rbc-event {
+  border-radius: 4px !important;
+}
+
+.rbc-off-range-bg {
+  background-color: #f9fafb;
+}
