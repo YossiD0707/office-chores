@@ -9,9 +9,7 @@ import type {
   RecurrenceConfig,
 } from './types';
 
-const api = axios.create({ baseURL: '/api' });
-
-// Team Members
+const api = axios.create({ baseURL: '/api' });// Team Members
 export const getTeamMembers = () =>
   api.get<TeamMember[]>('/team-members').then((r) => r.data);
 

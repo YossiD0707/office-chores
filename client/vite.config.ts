@@ -12,4 +12,10 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    outDir: 'dist',
+  },
+  define: {
+    'import.meta.env.VITE_API_URL': JSON.stringify('https://office-chores-production.up.railway.app')
+  }
 });
