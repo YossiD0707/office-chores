@@ -4,7 +4,7 @@
   "main": "dist/app.js",
   "scripts": {
     "dev": "ts-node src/app.ts",
-    "build": "tsc",
+    "build": "npx --yes tsc"
     "start": "node dist/app.js"
   },
   "dependencies": {
